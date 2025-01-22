@@ -18,3 +18,7 @@ if access=="+":
     plus(number1, number2)
 elif access=="-":
     minus(number1, number2)
+elif access=="*":
+    multiply(number1, number2)
+elif access=="/":
+    devision(number1, number2)
