@@ -14,3 +14,7 @@ number1 = int(input("Введите число: "))
 number2 = int(input("Введите число: "))
 access = input("Выберите +, -, * или /")
 
+if access=="+":
+    plus(number1, number2)
+elif access=="-":
+    minus(number1, number2)
